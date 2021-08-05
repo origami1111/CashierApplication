@@ -1,25 +1,14 @@
-# WHAT_DP_205_TAQC
+# Cash automation software
+The program has an intuitive and convenient graphical interface with great information content and focusing the cashier's attention on more important details.
 
-Our team worked on the "WHAT" (Who is absent today) project to control the education process in the training centers. The main purpose is to control the quality of education: attendance, achievement, materials studied, etc. It’s an open-source platform for IT Academy support.
+Requirements:
+  - barcode scan(using a webcam)
+  - formation of check
+  - discount accumulation system
 
-Project repository can be found at:\
-https://github.com/ita-social-projects/what-front/projects, \
-https://github.com/ita-social-projects/WhatBackend
+Available functionality:
+  - login
+  - 
 
-The goals of our project:
-- Perform manual functional testing web application WHAT
-- Create test cases
-- Pass test cases
-- Create bug reports
-- Perform automation functional testing web application WHAT
-- Develop a program that performs functional testing
-- Execute the program and get results of the functional testing
-
-Used technologies:
-.NET, C#, Visual Studio 2019, Selenium, NUnit, NLog, RestSharp, Swagger, Postman, Jira, Git, Scrum, Allure.
-
-WHAT_DP_205_TAQC consists of two projects:
-1) WHAT_PageObject - library for page description in order to Page Object Model (POM).
-2) WHAT_Tests - library of autotests (NUnit).
-3) WHAT_API - library of autotests (RestSharp)
-4) WHAT_Utilities - library of utilities to work with WHAT_Tests and WHAT_API
+Used technologies :
+C#, .Net, WPF, ZXing.net, AForge, MySQL Workbench, Visual Studio 2019
